@@ -20,7 +20,7 @@ TRAIN:
   padding_label: 255
   aux_weight: 1.0
   train_gpu: [0]
-  workers: 40 
+  workers: 4
   batch_size: 2     # batch size for training
   batch_size_val: 1
   base_lr: 0.003
