@@ -16,6 +16,12 @@
 
 ## References
 
+This repository owes its existence to the exceptional contributions of other projects:
+
+* CPANet: https://github.com/VDT-2048/CPANet
+
+Many thanks for their excellent work.
+
 ## Question
 If you have any question, welcome email me at 'hhhjjc@hdu.edu.cn'
 
