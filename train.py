@@ -101,7 +101,7 @@ def main_worker(argss):
     optimizer_transformer = torch.optim.AdamW(
             [
                 {"params": [p for n, p in model.named_parameters() if "transformer" in n and p.requires_grad]}
-            ], lr=6e-5)
+            ], lr=args.aux_lr)
 
     params_0 =  sum(p.numel() for n, p in model.named_parameters() if "transformer" not in n and p.requires_grad)
     params_1 =  sum(p.numel() for n, p in model.named_parameters() if "transformer" in n and p.requires_grad)
