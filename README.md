@@ -12,6 +12,8 @@
 
 ## Models
 
+We have adopted the same procedures as [CPANet](https://github.com/VDT-2048/CPANet) for the pre-trained backbones, placing them in the `../initmodel` directory. 
+
 ## Scripts
 
 ## References
