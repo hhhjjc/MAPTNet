@@ -8,7 +8,7 @@ import model.resnet as models
 import model.vgg as vgg_models
 from model.multiscale import SelfAttentionLayer, CrossAttentionLayer, FFNLayer
 from model.transformer import PositionEmbeddingSine
-#from model.ASPP_v3plus import ASPP
+
 class net(nn.Module):
     def __init__(self, layers=50, classes=2, criterion=nn.CrossEntropyLoss(ignore_index=255),
                  pretrained=True, shot=1, vgg=False):
@@ -102,8 +102,6 @@ class net(nn.Module):
         self.transformer_ffn_layers = nn.ModuleList([
             FFNLayer(d_model=reduce_dim, dim_feedforward=reduce_dim * 2, dropout=0.0, normalize_before=False) for _ in range(4)
         ])
-        ################
-        #self.aspp = ASPP()
 
     def forward(self, x, s_x=torch.FloatTensor(4, 1, 3, 200, 200).cuda(), s_y=torch.FloatTensor(4, 1, 200, 200).cuda(), y=None):
         x_size = x.size()  # [4,3,200,200]
