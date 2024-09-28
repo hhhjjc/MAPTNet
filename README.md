@@ -10,9 +10,11 @@
 
 ### Dataset
 
+Please download the following datasets and put them into the `../FSSD-12` directory.:
+
 ## Models
 
-We have adopted the same procedures as [CPANet](https://github.com/VDT-2048/CPANet) for the pre-trained backbones, placing them in the `../initmodel` directory. 
+We have adopted the same procedures as [CPANet](https://github.com/VDT-2048/CPANet) for the pre-trained backbones, placing them in the `./initmodel` directory. 
 
 ## Scripts
 
