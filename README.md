@@ -2,6 +2,7 @@
 
 We propose a few-shot segmentation method named Multi-scale Adaptive Prototype Transformer Network (MAPTNet), which aims to integrate multi-scale feature aggregation and improve adaptability of defect detection for diverse and complex defect scenarios.
 
+[method.pdf](https://github.com/user-attachments/files/17173934/method.pdf)
 
 
 
