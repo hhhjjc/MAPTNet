@@ -10,7 +10,7 @@
 
 ### Dataset
 
-Please download the following datasets and put them into the `../FSSD-12` directory.:
+Please download the following dataset from [CPANet](https://github.com/VDT-2048/CPANet) and put them into the `../FSSD-12` directory.:
 
 ## Models
 
