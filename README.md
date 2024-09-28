@@ -18,6 +18,18 @@ We have adopted the same procedures as [CPANet](https://github.com/VDT-2048/CPAN
 
 ## Scripts
 
+- First update the configurations in the `./config` for training or testing
+
+- Train script
+```
+sh train.sh
+```
+- Test script
+```
+sh test.sh
+```
+
+
 ## References
 
 This repository owes its existence to the exceptional contributions of other projects:
