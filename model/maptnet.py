@@ -6,8 +6,7 @@ from timm.models.layers import DropPath
 
 import model.resnet as models
 import model.vgg as vgg_models
-from model.multiscale import SelfAttentionLayer, CrossAttentionLayer, FFNLayer
-from model.transformer import PositionEmbeddingSine
+from model.transformer import PositionEmbeddingSine, SelfAttentionLayer, CrossAttentionLayer, FFNLayer
 
 class net(nn.Module):
     def __init__(self, layers=50, classes=2, criterion=nn.CrossEntropyLoss(ignore_index=255),
