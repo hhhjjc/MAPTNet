@@ -11,6 +11,14 @@ We propose a few-shot segmentation method named Multi-scale Adaptive Prototype T
 
 ### Environment
 
+- python == 3.8.19
+- torch == 2.3.0
+- torchvision == 0.18.0
+- cuda == 12.1
+- tqdm == 4.66.5
+- opencv-python == 4.10.0.84
+- tensorboardX == 2.6.2.2
+
 ### Dataset
 
 Please download the following dataset from [CPANet](https://github.com/VDT-2048/CPANet) and put them into the `../FSSD-12` directory.
