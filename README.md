@@ -22,10 +22,12 @@ We propose a few-shot segmentation method named Multi-scale Adaptive Prototype T
 ### Dataset
 
 Please download the following dataset from [CPANet](https://github.com/VDT-2048/CPANet) and put them into the `../FSSD-12` directory.
-#add
+
+Note:
+
 For this project, we use the integrated ESDIs-SOD dataset, which is based on the original A3Net's datasets. The integrated dataset combines multiple steel surface defect image sets with standardized annotations to provide a comprehensive benchmark for few-shot segmentation tasks.
 * Original data source: [A3Net](https://github.com/VDT-2048/A3Net) - We would like to thank the authors for their valuable contribution
-* Our [integrated ESDIs-SOD dataset](https://drive.google.com/file/d/1_WgpoqHX-u5X_KDEFkkmMkeTnWuXMXyl/view)
+* [Our integrated ESDIs-SOD dataset](https://drive.google.com/file/d/1_WgpoqHX-u5X_KDEFkkmMkeTnWuXMXyl/view)
 
 If you use this dataset in your research, please cite both our paper and the original A3Net paper.
 
@@ -52,7 +54,7 @@ sh test.sh
 This repository owes its existence to the exceptional contributions of other projects:
 
 * CPANet: https://github.com/VDT-2048/CPANet
-* ...
+* A3Net: https://github.com/VDT-2048/A3Net
 
 Many thanks for their excellent work.
 
