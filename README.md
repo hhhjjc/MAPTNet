@@ -2,7 +2,7 @@
 
 We propose a few-shot segmentation method named Multi-scale Adaptive Prototype Transformer Network (MAPTNet), which aims to integrate multi-scale feature aggregation and improve adaptability of defect detection for diverse and complex defect scenarios.
 
-![method](https://github.com/user-attachments/assets/7d77e0f7-68e1-4833-add8-189e3fd6b71b)
+![fig3](https://github.com/user-attachments/assets/ffd9159a-5a18-4a9e-92ba-cac2d9893437)
 
 
 
@@ -54,6 +54,7 @@ sh test.sh
 This repository owes its existence to the exceptional contributions of other projects:
 
 * CPANet: https://github.com/VDT-2048/CPANet
+* TGRNet: https://github.com/xuewenyuan/TGRNet
 * A3Net: https://github.com/VDT-2048/A3Net
 
 Many thanks for their excellent work.
