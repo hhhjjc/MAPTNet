@@ -1,6 +1,6 @@
 # Multi-Scale Adaptive Prototype Transformer Network for Few-shot Strip Steel Surface Defect Segmentation
 
-We propose a few-shot segmentation method named Multi-scale Adaptive Prototype Transformer Network (MAPTNet(https://ieeexplore.ieee.org/document/10922731/)), which aims to integrate multi-scale feature aggregation and improve adaptability of defect detection for diverse and complex defect scenarios.
+We propose a few-shot segmentation method named Multi-scale Adaptive Prototype Transformer Network ([MAPTNet](https://ieeexplore.ieee.org/document/10922731/)), which aims to integrate multi-scale feature aggregation and improve adaptability of defect detection for diverse and complex defect scenarios.
 
 ![fig3](https://github.com/user-attachments/assets/ffd9159a-5a18-4a9e-92ba-cac2d9893437)
 
