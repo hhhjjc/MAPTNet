@@ -34,7 +34,7 @@ If you use this dataset in your research, please cite both our paper and the ori
 ## Models
 
 We have adopted the same procedures as [CPANet](https://github.com/VDT-2048/CPANet) for the pre-trained backbones, placing them in the `./initmodel` directory. 
-* If you can't find the corresponding backbone, please click [here](https://drive.google.com/file/d/1ho_PKc880ImdYrPMCifHU5NhDWmnNOKS/view?usp=drive_link) to download.
+* If you can't find the corresponding backbone, please click [here](https://drive.google.com/file/d/1ho_PKc880ImdYrPMCifHU5NhDWmnNOKS/view?usp=drive_link) to download it and check out.
 
 ## Scripts
 
